@@ -1,11 +1,13 @@
 <script>
 
 import AppTitle from './components/AppTitle.vue'
+import Jumbo from './components/Jumbo.vue'
 
 
 export default {
   components: {
     AppTitle,
+    Jumbo
   }
 }
 </script>
@@ -22,7 +24,8 @@ export default {
   </div>
   <HelloWorld msg="Vite + Vue" />
 
-  <AppTitle/>
+  <AppTitle />
+  <Jumbo />
 </template>
 
 <style scoped>
@@ -32,9 +35,11 @@ export default {
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }

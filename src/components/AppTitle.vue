@@ -6,10 +6,8 @@
 </template>
 
 <style scoped>
-
-h1{
-    font-weight: 800;
-    color: brown;
+h1 {
+  font-weight: 800;
+  color: brown;
 }
-
 </style>
